@@ -14,3 +14,56 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+```python
+class Attributes(Aashay):
+	@staticmethod
+	def contact() -> tuple:
+	    email  = "aashaydoshi97@gmail.com"
+	    linkedin = "https://www.linkedin.com/in/aashay-doshi-85b91a129/"
+	    
+	    return email, linkedin
+	
+	@staticmethod
+	def life() -> tuple:
+		langs         = ['English', 'Hindi']
+		nationalities = 'Indian'
+		age           = 25
+		
+		return langs, nationalities, age
+	
+	@staticmethod
+	def coding() -> tuple:
+		langs = {
+			'expert':   ['python'],
+			'intermediate': ['go', 'js']
+		}
+    
+                databases     = ['MySQL','PostgreSQL','MongoDB','ApacheKafka']
+                frameworks    = ['Grpc/protocol-buffers', 'websockets', 
+                                'FlasAPI', 'Flask', 'Pytorch', 'Pytorch-Geometric']
+                specialities  = ['web/app' 'AI']
+		environnement = ['vscode', 'nano']
+		specialities  = ['web/app' 'AI']
+		environnement = ['vscode', 'nano']
+		
+		return langs, databases, specialities, environnement
+
+```
+
+<!-- 	@staticmethod
+	def projects() -> tuple:
+		Web/App   = ['HQ Gen', 'Raid Toolkit']
+		AI    = ['view bot', 'Algorithms']
+		Crypto = ['Gen', 'Botting']
+		
+    return discord, tiktok, instagram, twitch, website -->
+    
+<h2 align="center">Skills </h2>
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,golang,pytorch,tensorflow,flask,vscode,kafka,mongodb,mysql,postgres,git,docker,raspberrypi,nginx" />
+  </a>
+</p>
+

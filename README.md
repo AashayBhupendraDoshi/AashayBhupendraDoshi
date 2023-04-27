@@ -47,7 +47,7 @@ class Attributes(Aashay):
 		specialities  = ['web/app' 'AI']
 		environnement = ['vscode', 'nano']
 		
-		return langs, databases, specialities, environnement
+		return langs, databases, frameworks, specialities, environnement
 
 ```
 

@@ -44,8 +44,6 @@ class Attributes(Aashay):
                                 'FlasAPI', 'Flask', 'Pytorch', 'Pytorch-Geometric']
                 specialities  = ['web/app' 'AI']
 		environnement = ['vscode', 'nano']
-		specialities  = ['web/app' 'AI']
-		environnement = ['vscode', 'nano']
 		
 		return langs, databases, frameworks, specialities, environnement
 

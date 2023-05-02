@@ -28,10 +28,10 @@ class Attributes(Aashay):
 	@staticmethod
 	def life() -> tuple:
 		langs         = ['English', 'Hindi']
-		nationalities = 'Indian'
+		nationality = 'Indian'
 		age           = 25
 		
-		return langs, nationalities, age
+		return langs, nationality, age
 	
 	@staticmethod
 	def coding() -> tuple:

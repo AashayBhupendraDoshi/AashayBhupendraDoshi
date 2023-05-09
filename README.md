@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 class Attributes(Aashay):
 	@staticmethod
 	def contact() -> tuple:
-	    email  = "aashaydoshi97@gmail.com"
+	    email    = "aashaydoshi97@gmail.com"
 	    linkedin = "https://www.linkedin.com/in/aashay-doshi-85b91a129/"
 	    
 	    return email, linkedin
@@ -28,7 +28,7 @@ class Attributes(Aashay):
 	@staticmethod
 	def life() -> tuple:
 		langs         = ['English', 'Hindi']
-		nationality = 'Indian'
+		nationality   = 'Indian'
 		age           = 25
 		
 		return langs, nationality, age

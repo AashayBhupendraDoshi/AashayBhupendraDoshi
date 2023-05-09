@@ -36,7 +36,7 @@ class Attributes(Aashay):
 	@staticmethod
 	def coding() -> tuple:
 		langs = {
-			'expert':   ['python'],
+			'expert'      : ['python'],
 			'intermediate': ['go', 'js']
 		}
     

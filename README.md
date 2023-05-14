@@ -35,10 +35,10 @@ class Attributes(Aashay):
 	
 	@staticmethod
 	def coding() -> tuple:
-		langs = {
-			'expert'      : ['python'],
-			'intermediate': ['go', 'js']
-		}
+		langs 	      = {
+				'expert'      : ['python'],
+				'intermediate': ['go', 'js']
+				}
     
                 databases     = ['MySQL','PostgreSQL','MongoDB','ApacheKafka']
                 frameworks    = ['Grpc/protocol-buffers', 'websockets', 

@@ -62,7 +62,7 @@ class Attributes(Aashay):
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,golang,pytorch,tensorflow,fastapi,kafka,mysql,postgres,mongodb,git,docker,kubernetes,nginx,raspberrypi" />
+    <img src="https://skillicons.dev/icons?i=python,golang,pytorch,fastapi,kafka,mysql,postgres,mongodb,docker,raspberrypi" />
   </a>
 </p>
 

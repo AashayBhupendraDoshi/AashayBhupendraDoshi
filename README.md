@@ -17,52 +17,64 @@ Here are some ideas to get you started:
 -->
 
 ```python
+
+from datetime import datetime, timedelta
+
 class Attributes(Aashay):
 	@staticmethod
 	def contact() -> tuple:
 	    email    = "aashaydoshi97@gmail.com"
-	    linkedin = "https://www.linkedin.com/in/aashay-doshi-85b91a129/"
+	    linkedin = "https://www.linkedin.com/in/abd77/"
 	    
 	    return email, linkedin
 	
 	@staticmethod
 	def life() -> tuple:
-		langs         = ['English', 'Hindi']
-		nationality   = 'Indian'
-		age           = 25
-		
-		return langs, nationality, age
+	    langs         = ['English', 'Hindi']
+	    nationality   = 'Indian'
+	    dob_str = "17th July 1997"  # Given date of birth
+	    dob = datetime.strptime(dob_str, "%dth %B %Y") 
+	    age = (datetime.now() - dob)
+	    
+	    return langs, nationality, age
 	
 	@staticmethod
 	def coding() -> tuple:
-		langs 	      = {
-				'expert'      : ['python'],
-				'intermediate': ['go', 'js']
-				}
-    
-                databases     = ['MySQL','PostgreSQL','MongoDB','ApacheKafka']
+		langs 	      = ['python', 'go', 'typescript', 'java']
+                databases     = ['PostgreSQL','MongoDB','ApacheKafka']
                 frameworks    = ['Grpc/protocol-buffers', 'websockets', 
-                                'FlasAPI', 'Flask', 'Pytorch', 'Pytorch-Geometric']
-                specialities  = ['web/app' 'AI']
+                                'FlasAPI', 'Pytorch', 'Pytorch-Geometric']
+                specialities  = ['backend', 'distributed systems', 'AI/ML']
 		environnement = ['vscode', 'nano']
 		
 		return langs, databases, frameworks, specialities, environnement
 
-```
-
-<!-- 	@staticmethod
+	@staticmethod
 	def projects() -> tuple:
-		Web/App   = ['HQ Gen', 'Raid Toolkit']
-		AI    = ['view bot', 'Algorithms']
-		Crypto = ['Gen', 'Botting']
-		
-    return discord, tiktok, instagram, twitch, website -->
+		return {
+  			"Ask": {
+     				"link": "https://chromewebstore.google.com/detail/ask/donmdonnblkneanplkifkejjlnhjjlhh/",
+	 			"Descrition": "Chrome extension personalized AI assistant leveraging memory recall and context awareness"
+			},
+   			"RPi4b_cellular_OBDscanner": {
+     				"link": "https://github.com/AashayBhupendraDoshi/RPi4b_cellular_OBDscanner",
+	 			"Descrition": "OBD2 and Sensor Data Collection Agent for Raspberry Pi"
+			},
+   			"py_Face_Search": {
+     				"link": "https://github.com/AashayBhupendraDoshi/py_Face_Search",
+	 			"Descrition": "Python based GUI application for single and multi face search"
+			},
+   		
+   			
+		}
+
+```
     
 <h2 align="center">Skills </h2>
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,golang,pytorch,fastapi,kafka,mysql,postgres,mongodb,docker,raspberrypi" />
+    <img src="https://skillicons.dev/icons?i=aws,golang,java,ts,python,pytorch,fastapi,kafka,postgres,mongodb,docker,raspberrypi" />
   </a>
 </p>
 
